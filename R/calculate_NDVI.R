@@ -1,3 +1,5 @@
+# Functions used to calculate the NDVI
+
 calculate_NDVI <- function(x , y) {
 	overlay(x, y, fun=ndvOver)
 }
